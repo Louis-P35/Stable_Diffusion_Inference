@@ -56,9 +56,9 @@ def generate_image_from_prompt_and_input(
 # Example usage
 if __name__ == "__main__":
     MODEL_ID = "runwayml/stable-diffusion-v1-5"  # You can replace this with any SD-based model from Hugging Face
-    INPUT_IMAGE_PATH = "input.jpg"  # replace with your input image file path
-    OUTPUT_IMAGE_PATH = "output.jpg"  # desired output file path
-    PROMPT = "A beautiful painting of a fantasy landscape, vibrant colors, highly detailed"
+    INPUT_IMAGE_PATH = "../img/franck-pitiot-kaamelott-perceval.png"
+    OUTPUT_IMAGE_PATH = "output.jpg"
+    PROMPT = "Ghibli style"
 
     generate_image_from_prompt_and_input(
         model_id=MODEL_ID,
